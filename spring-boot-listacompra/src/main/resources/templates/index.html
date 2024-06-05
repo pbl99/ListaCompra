@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8" />
+	<title></title>
+</head>
+
+<body>
+	<h1>LISTA DE LA COMPRA</h1>
+	<form action="/muestraLista" method="post">
+		<div>
+			<label for="nombrelista">Nombre Lista</label>
+			<div>
+				<input type="text" id="nombrelista" name="nombrelista">
+			</div>
+		</div>
+		<div>
+			<label for="descripcion">Descripcion</label>
+			<div>
+				<input type="text" id="descripcion" name="descripcion">
+			</div>
+		</div>
+		<div>
+			<label for="items">Items</label>
+			<div>
+				<input type="text" id="items" name="items">
+			</div>
+		</div>
+		<div>
+			<label for="fecha">Fecha</label>
+			<div>
+				<input type="date" id="fecha" name="fecha">
+			</div>
+		</div>
+		<div>
+			<div>
+				<input type="submit" value="Enviar">
+			</div>
+		</div>
+	</form>
+</body>
+
+</html>
